@@ -37,6 +37,7 @@ typedef data_type new_name
 3. Mọi trình biên dịch C tuân thủ tiêu chuẩn của C11 đều có tập các file tiêu đề tiêu chuẩn đi kèm.
 4. Một số chỉ thị tiền xử lý cũng được sử dụng phổ biến như là #ifndef và #define dùng để tránh việc bạn khai báo 1 thư viện nào quá 1 lần trong chương trình  vì như thế bộ tiền xử lý sẽ thực hiện những thao tác không cần thiết.
 5. Header file còn có thể bao gồm nhiều thứ khác nhau như directive (chỉ thị), constant (hằng) hoặc khai báo cấu trúc (structure). Bạn có thể xem hình ảnh của 1 file header như thế này nhé:
+
 ![alt text](image.png)
 6. Source code để thực thi thường ở trong file source code (file có phần mở rộng là .c) và không nằm trong file header. Cũng có trường hợp ngoại lệ khi bạn muốn thực hiện mọi thứ hiệu quả hơn bạn có thể cho mã nguồn vào tệp tiêu đề. Nhưng thông thường tệp tiêu đề sẽ không chứa mã thực thi mà chứa các dòng lệnh dành cho mục đích khai báo. 
 ##
