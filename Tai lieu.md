@@ -37,5 +37,6 @@ typedef data_type new_name
 5. Header file còn có thể bao gồm nhiều thứ khác nhau như directive (chỉ thị), constant (hằng) hoặc khai báo cấu trúc (structure). Bạn có thể xem hình ảnh của 1 file header như thế này nhé:
 
 [![Screenshot-2025-04-02-120258.png](https://i.postimg.cc/HLg9C1G1/Screenshot-2025-04-02-120258.png)](https://postimg.cc/pmsFD7Xs)
+
 6. Source code để thực thi thường ở trong file source code (file có phần mở rộng là .c) và không nằm trong file header. Cũng có trường hợp ngoại lệ khi bạn muốn thực hiện mọi thứ hiệu quả hơn bạn có thể cho mã nguồn vào tệp tiêu đề. Nhưng thông thường tệp tiêu đề sẽ không chứa mã thực thi mà chứa các dòng lệnh dành cho mục đích khai báo. 
 ##
