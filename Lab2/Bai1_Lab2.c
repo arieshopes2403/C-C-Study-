@@ -4,7 +4,6 @@ chương trình để hiển thị tên của chính mình trên màn hình.*/
 
 int main(){
     printf("My name is Hieu");
-    printf("My name is Han\n");
     return 0;
 }
 
