@@ -28,7 +28,7 @@ typedef data_type new_name
 - Là những file khai báo thông tin về một số hàm được cung cấp bởi file đó. 
 - Nó thể hiện một số chức năng mà trình biên dịch cần hiểu trước khi nó xử lí. Ví dụ như file stdio.h sẽ chứa thông tin về hàm printf (là hàm dùng để hiển thị ra màn hình console). Trong file stdio.h có hàm printf và còn rất nhiều các hàm liên quan đến input/output khác nữa,  cho nên stdio là viết tắt của standard input output (thư viện input/output tiêu chuẩn).
 - Ngoài thư viện tiêu chuẩn đi kèm với ngôn ngữ C có thể tự tạo file header để có thể tái sử dụng những chức năng trong chương trình của mình.
-### 1.4 Cú pháp khi dùng #include
+## 1.4 Cú pháp khi dùng #include
 1. Cú pháp #include yêu cầu phải gõ đúng  tên file được viết hoa hay thường.
 2. Có hai cách để thêm file vào câu lệnh include trong chương trình:
 
